@@ -12,11 +12,10 @@
 
 * {
     margin: 0;
-    padding: 0;
+    padding: 0%;
 }
 
 body {
-    /* height: 100vh; */
     box-sizing: border-box;
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
@@ -39,7 +38,7 @@ body {
     font-weight: 600;
     color: var(--cor-terciaria);
     text-decoration: none;
-    
+       
 }
 
 .cabecalho__menu__link:hover {
@@ -47,7 +46,7 @@ body {
 }
 
 .apresentacao {
-    padding: 5% 15%;
+    padding: 5% 10%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -91,7 +90,6 @@ body {
 }
 
 .apresentacao__links__links {
-     /* background-color: #22D4FD; */
      display: flex;
      justify-content: center;
      gap: 16px;
@@ -112,11 +110,11 @@ body {
 }
 
 .rodape{
-    padding: 24px;
+    padding: 10 px;
     color: var(--cor-primaria);
     background-color: var(--cor-terciaria);
     text-align: center;
     font-family: var(--fonte-segundaria);
-    font-size: 24px;
+    font-size: 15px;
     font-weight: 400;
 }
